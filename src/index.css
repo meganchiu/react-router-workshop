@@ -17,6 +17,28 @@ body > div {
 #navbar {
   padding: 2em;
   justify-content: space-evenly;
+  background-color:darkkhaki;
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+}
+#footer {
+  padding: 2em;
+  justify-content: space-evenly;
+  background-color:darkkhaki;
+  border: 1px solid black;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+a {
+  padding: 10px;
+  border: 1px solid black;
 }
 #main-section {
   flex-grow: 1;
@@ -31,7 +53,28 @@ body > div {
   background-color: #b05f6d;
   color: white;
 }
+.orange{
+  background-color: orange;
+  color: white;
+}
+.yellow{
+  background-color: yellow;
+  color: white;
+}
+.green{
+  background-color: green;
+  color: white;
+}
 .blue {
   background-color: #275db3;
+  color: white;
+}
+.purple{
+  background-color: purple;
+  color: white;
+}
+
+.home {
+  background-color: saddlebrown;
   color: white;
 }

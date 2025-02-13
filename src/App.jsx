@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar'
+import MainContainer from './components/MainContainer'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,13 +9,11 @@ function App() {
   return (
     <>
       <div id="container">
-        <div id="navbar">
-          <Routes>
-            <Route path="/blue" element={<h1>Blue</h1>} />
-            <Route path="/red" element={<h1>Red</h1>} />
-          </Routes>
+        <Navbar />
+        <div id="main-section">
+          <MainContainer />
         </div>
-        <div id="main-section">{/* routes here */}</div>
+        <Footer />
       </div>
     </>
   )
