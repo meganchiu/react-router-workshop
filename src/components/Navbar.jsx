@@ -11,7 +11,7 @@ function Navbar() {
           <Link to="/green">GREEN</Link>
           <Link to="/blue">BLUE</Link>
           <Link to="/purple">PURPLE</Link>
-        </div>
+      </div>
     </>
   );
 }
